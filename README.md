@@ -44,3 +44,9 @@ This module uses a fork of Atom's excellent `node-spellchecker` that takes a sli
 
 * Run `npm start` to start [the example application](https://github.com/electron-userland/electron-spellchecker/tree/master/example) and play around.
 * Read [the class documentation](https://electron-userland.github.io/electron-spellchecker/docs/) to learn more.
+
+## Frecuent errors
+
+> X11/extensions/XKBrules.h: No such file or directory
+
+Solution: <code>sudo apt-get install libxkbfile-dev</code>
